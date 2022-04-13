@@ -1,4 +1,4 @@
-#Lab: DOM XSS in innerHTML sink using source
+# Lab: DOM XSS in innerHTML sink using source
 
 -> payload: ```<img src='123.png' onerror='alert(1)'>```
 
